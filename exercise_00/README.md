@@ -4,13 +4,17 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+The goal of this flutter project is to learn how to:
+- Install flutter on your computer 
+- Create your first project
+- Organize your first renderer in a homepage
+- Organize how to display a button a simple text
 
-A few resources to get you started if this is your first Flutter project:
+## Tips 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Learn how to structure your first project, in the official documentation, you have tutorials [https://docs.flutter.dev/]
+- Learn how to build your first app [https://www.youtube.com/watch?v=xWV71C2kp38&t=637s&ab_channel=Flutter]
+- Learn what is a state [https://www.youtube.com/watch?v=QlwiL_yLh6E&list=PLjxrf2q8roU3wk7CDw4RfV3mEwOJbjx1k&index=7&ab_channel=Flutter]
+- Learn How to organize the layout of your app [https://docs.flutter.dev/ui/layout/tutorial]
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Homepage](images/Exercice00_Homepage.png)
