@@ -4,13 +4,26 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This exercice has a goal to understand the changing of state when you click on a button. 
+What I did :
+- Create a boolean to say "if true = 'initial text', if false = 'Hello World'"
+- Create a widget which return a text in function if the boolean if true or not
+- I optimized the code for the style of the text
+- I call the widget in my text container
 
-A few resources to get you started if this is your first Flutter project:
+```c
+Widget textDisplay() {
+    const textStyle = TextStyle(
+      color: Colors.white,
+      fontSize: 24,
+    );
+    return Text(
+      isPressed
+          ? 'Initial text'
+          : 'Hello World',
+      style: textStyle,
+    );
+  }
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![homepage](images/ex01_homepage.png)

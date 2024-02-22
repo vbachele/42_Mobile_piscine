@@ -20,7 +20,7 @@ class _HomePageState extends State<HomePage> {
     );
     return Text(
       isPressed
-          ? 'Initial text : Button pressed $counter times.'
+          ? 'Initial text'
           : 'Hello World',
       style: textStyle,
     );
@@ -51,7 +51,6 @@ class _HomePageState extends State<HomePage> {
               child: textDisplay(),
             ),
           ), // Container_1
-           // Container_1
 
           ElevatedButton(
             style: ButtonStyle(
